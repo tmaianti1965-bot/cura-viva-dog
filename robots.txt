@@ -1,0 +1,10 @@
+# Bozza: nessuna indicizzazione. Ogni pagina ha anche <meta name="robots" content="noindex, nofollow">.
+# Google e Bing devono poter leggere quel meta, quindi restano ammessi; gli altri bot no.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Disallow: /
